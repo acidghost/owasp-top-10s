@@ -16,7 +16,7 @@ GITHUB_TOKEN=your_token_here python3 main.py
 <!-- owasp-top-repos:start -->
 Found 45 matching repositories.
 
-_Last updated: 2026-04-29 18:48:11 UTC_
+_Last updated: 2026-04-29 19:15:58 UTC_
 
 | Repository | Stars | Description |
 | --- | ---: | --- |
@@ -32,7 +32,7 @@ _Last updated: 2026-04-29 18:48:11 UTC_
 | [OWASP/www-project-top-10-infrastructure-security-risks](https://github.com/OWASP/www-project-top-10-infrastructure-security-risks) | 73 | OWASP Top 10 Infrastructure Security Risks |
 | [OWASP/www-project-smart-contract-top-10](https://github.com/OWASP/www-project-smart-contract-top-10) | 71 | OWASP Smart Contract Top 10 |
 | [OWASP/www-project-agentic-skills-top-10](https://github.com/OWASP/www-project-agentic-skills-top-10) | 70 | OWASP Foundation web repository |
-| [OWASP/www-project-mcp-top-10](https://github.com/OWASP/www-project-mcp-top-10) | 62 | OWASP Foundation web repository |
+| [OWASP/www-project-mcp-top-10](https://github.com/OWASP/www-project-mcp-top-10) | 63 | OWASP Foundation web repository |
 | [OWASP/OWASP-Top-10](https://github.com/OWASP/OWASP-Top-10) | 48 | OWASP Top Ten |
 | [OWASP/www-project-non-human-identities-top-10](https://github.com/OWASP/www-project-non-human-identities-top-10) | 43 | OWASP Non-Human Identities Top 10 |
 | [OWASP/www-project-cloud-native-application-security-top-10](https://github.com/OWASP/www-project-cloud-native-application-security-top-10) | 37 | OWASP Foundation Web Respository |
