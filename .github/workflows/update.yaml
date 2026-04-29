@@ -25,6 +25,8 @@ jobs:
         run: uv run main.py
 
       - name: Commit and push changes
+        env:
+          LINK: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
@@ -33,5 +35,5 @@ jobs:
             echo "No changes to commit."
             exit 0
           fi
-          git commit -m "chore: update OWASP top repos"
+          git commit -m "chore: update OWASP top repos" -m "Link: $LINK"
           git push
