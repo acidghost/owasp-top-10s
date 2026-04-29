@@ -24,6 +24,54 @@ TOP_NAME_PATTERN = re.compile(
     re.IGNORECASE,
 )
 SEARCH_QUERY = f"org:{ORG_NAME} top in:name"
+# Static display names for the repositories currently surfaced by this script.
+REPOSITORY_DISPLAY_NAMES: dict[str, str] = {
+    "Top10": "Top 10",
+    "www-project-top-ten": "Proj Top Ten",
+    "www-project-top-10-for-large-language-model-applications": "Proj Top 10 for Large Language Model Applications",
+    "www-project-kubernetes-top-ten": "Proj Kubernetes Top Ten",
+    "Serverless-Top-10-Project": "Serverless Top 10 Project",
+    "www-project-mobile-top-10": "Proj Mobile Top 10",
+    "www-project-top-10-ci-cd-security-risks": "Proj Top 10 CI/CD Security Risks",
+    "www-project-machine-learning-security-top-10": "Proj Machine Learning Security Top 10",
+    "www-project-citizen-development-top10-security-risks": "Proj Citizen Development Top 10 Security Risks",
+    "www-project-top-10-infrastructure-security-risks": "Proj Top 10 Infrastructure Security Risks",
+    "www-project-smart-contract-top-10": "Proj Smart Contract Top 10",
+    "www-project-agentic-skills-top-10": "Proj Agentic Skills Top 10",
+    "www-project-mcp-top-10": "Proj MCP Top 10",
+    "OWASP-Top-10": "OWASP Top 10",
+    "www-project-non-human-identities-top-10": "Proj Non-Human Identities Top 10",
+    "www-project-cloud-native-application-security-top-10": "Proj Cloud Native Application Security Top 10",
+    "Top-5-Machine-Learning-Risks": "Top 5 Machine Learning Risks",
+    "www-project-top-25-parameters": "Proj Top 25 Parameters",
+    "www-project-operational-technology-top-10": "Proj Operational Technology Top 10",
+    "Cloud-Native-Application-Security-Top-10": "Cloud Native Application Security Top 10",
+    "www-project-top-10-privacy-risks": "Proj Top 10 Privacy Risks",
+    "www-project-open-source-software-top-10": "Proj Open Source Software Top 10",
+    "www-project-serverless-top-10": "Proj Serverless Top 10",
+    "www-project-docker-top-10": "Proj Docker Top 10",
+    "www-project-devsecops-top-10": "Proj DevSecOps Top 10",
+    "www-project-top-10-client-side-security-risks": "Proj Top 10 Client-Side Security Risks",
+    "www-project-desktop-app-security-top-10": "Proj Desktop App Security Top 10",
+    "www-project-data-security-top-10": "Proj Data Security Top 10",
+    "www-project-internet-of-things-top-10": "Proj Internet of Things Top 10",
+    "www-project-solana-programs-top-10": "Proj Solana Programs Top 10",
+    "www-project-top-10-for-business-logic-abuse": "Proj Top 10 for Business Logic Abuse",
+    "www-project-top-10-for-maritime-security": "Proj Top 10 for Maritime Security",
+    "www-project-ai-top-ten": "Proj AI Top Ten",
+    "www-project-attack-surface-management-top-10": "Proj Attack Surface Management Top 10",
+    "www-project-thick-client-top-10": "Proj Thick Client Top 10",
+    "www-project-top-10-the-game": "Proj Top 10: The Game",
+    "www-project-ot-top-ten": "Proj OT Top Ten",
+    "www-project-top-10-card-game": "Proj Top 10 Card Game",
+    "www-project-top-10-drone-security-risks": "Proj Top 10 Drone Security Risks",
+    "www-project-top-10-in-xr": "Proj Top 10 in XR",
+    "www-project-top-ten-card-game": "Proj Top Ten Card Game",
+    "Top-10-Card-Game": "Top 10 Card Game",
+    "www-project-audio-video-communications-top-10": "Proj Audio/Video Communications Top 10",
+    "www-project-ot-top10-vulnerabilities-demonstrator": "Proj OT Top 10 Vulnerabilities Demonstrator",
+    "www-project-top-10-fuer-entwickler": "Proj Top 10 fuer Entwickler",
+}
 
 DEFAULT_README = f"""# OWASP repositories with "top" in the name
 
@@ -175,6 +223,10 @@ def format_table_cell(value: str | None) -> str:
     return " ".join(value.split()).replace("|", r"\|")
 
 
+def get_repository_display_name(repository: Repository) -> str:
+    return REPOSITORY_DISPLAY_NAMES.get(repository.name, repository.name)
+
+
 def render_repository_table(repositories: list[Repository]) -> str:
     timestamp = datetime.now(UTC).strftime("%Y-%m-%d %H:%M:%S UTC")
     lines = [
@@ -188,7 +240,7 @@ def render_repository_table(repositories: list[Repository]) -> str:
 
     for repository in repositories:
         lines.append(
-            f"| [{repository.full_name}]({repository.html_url}) | "
+            f"| [{get_repository_display_name(repository)}]({repository.html_url}) | "
             f"{repository.stargazers_count:,} | "
             f"{format_table_cell(repository.description)} |"
         )
