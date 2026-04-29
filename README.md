@@ -1,5 +1,7 @@
 # OWASP repositories with "top" in the name
 
+[![Update OWASP top repos](https://github.com/acidghost/owasp-top-10s/actions/workflows/update.yaml/badge.svg)](https://github.com/acidghost/owasp-top-10s/actions/workflows/update.yaml)
+
 This repository contains a small stdlib-only script that queries the GitHub API
 for repositories in the `OWASP` organization whose names contain a `top`
 token, and updates the generated section below.
