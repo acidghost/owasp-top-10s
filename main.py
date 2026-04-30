@@ -22,49 +22,180 @@ TOP_NAME_PATTERN = re.compile(
     re.IGNORECASE,
 )
 SEARCH_QUERY = f"org:{ORG_NAME} top in:name"
-# Static display names for the repositories currently surfaced by this script.
-REPOSITORY_DISPLAY_NAMES: dict[str, str] = {
-    "Top10": "Top 10",
-    "www-project-top-ten": "Proj Top Ten",
-    "www-project-top-10-for-large-language-model-applications": "Top 10 for LLM Apps",
-    "www-project-kubernetes-top-ten": "Kubernetes Top 10",
-    "Serverless-Top-10-Project": "Serverless Top 10",
-    "www-project-mobile-top-10": "Mobile Top 10",
-    "www-project-top-10-ci-cd-security-risks": "Top 10 CI/CD Security Risks",
-    "www-project-machine-learning-security-top-10": "Machine Learning Security Top 10",
-    "www-project-citizen-development-top10-security-risks": "Citizen Development Top 10 Security Risks",
-    "www-project-top-10-infrastructure-security-risks": "Top 10 Infrastructure Security Risks",
-    "www-project-smart-contract-top-10": "Smart Contract Top 10",
-    "www-project-agentic-skills-top-10": "Agentic Skills Top 10",
-    "www-project-mcp-top-10": "MCP Top 10",
-    "www-project-non-human-identities-top-10": "Non-Human Identities Top 10",
-    "www-project-cloud-native-application-security-top-10": "Cloud Native Application Security Top 10",
-    "Top-5-Machine-Learning-Risks": "Top 5 Machine Learning Risks",
-    "www-project-top-25-parameters": "Top 25 Parameters",
-    "www-project-operational-technology-top-10": "Operational Technology Top 10",
-    "Cloud-Native-Application-Security-Top-10": "Cloud Native Application Security Top 10",
-    "www-project-top-10-privacy-risks": "Top 10 Privacy Risks",
-    "www-project-open-source-software-top-10": "Open Source Software Top 10",
-    "www-project-serverless-top-10": "Serverless Top 10",
-    "www-project-docker-top-10": "Docker Top 10",
-    "www-project-devsecops-top-10": "DevSecOps Top 10",
-    "www-project-top-10-client-side-security-risks": "Top 10 Client-Side Security Risks",
-    "www-project-desktop-app-security-top-10": "Desktop App Security Top 10",
-    "www-project-data-security-top-10": "Data Security Top 10",
-    "www-project-internet-of-things-top-10": "Internet of Things Top 10",
-    "www-project-solana-programs-top-10": "Solana Programs Top 10",
-    "www-project-top-10-for-business-logic-abuse": "Top 10 for Business Logic Abuse",
-    "www-project-top-10-for-maritime-security": "Top 10 for Maritime Security",
-    "www-project-ai-top-ten": "AI Top 10",
-    "www-project-attack-surface-management-top-10": "Attack Surface Management Top 10",
-    "www-project-thick-client-top-10": "Thick Client Top 10",
-    "www-project-top-10-the-game": "Top 10: The Game",
-    "www-project-ot-top-ten": "OT Top 10",
-    "www-project-top-10-drone-security-risks": "Top 10 Drone Security Risks",
-    "www-project-top-10-in-xr": "Top 10 in XR",
-    "www-project-top-ten-card-game": "Top 10 Card Game",
-    "www-project-audio-video-communications-top-10": "Audio/Video Communications Top 10",
-    "www-project-ot-top10-vulnerabilities-demonstrator": "OT Top 10 Vulnerabilities Demonstrator",
+
+
+@dataclass(frozen=True, slots=True)
+class RepositoryMeta:
+    display_name: str
+    tags: tuple[str, ...]
+
+
+# Static repository metadata for the repositories currently surfaced by this script.
+REPOSITORY_METADATA: dict[str, RepositoryMeta] = {
+    "Top10": RepositoryMeta(
+        display_name="Top 10",
+        tags=("application-security", "web-security"),
+    ),
+    "www-project-top-ten": RepositoryMeta(
+        display_name="Proj Top Ten",
+        tags=("application-security", "web-security"),
+    ),
+    "www-project-top-10-for-large-language-model-applications": RepositoryMeta(
+        display_name="Top 10 for LLM Apps",
+        tags=("ai-security", "application-security"),
+    ),
+    "www-project-kubernetes-top-ten": RepositoryMeta(
+        display_name="Kubernetes Top 10",
+        tags=("cloud-native", "infrastructure-security"),
+    ),
+    "Serverless-Top-10-Project": RepositoryMeta(
+        display_name="Serverless Top 10",
+        tags=("cloud-native",),
+    ),
+    "www-project-mobile-top-10": RepositoryMeta(
+        display_name="Mobile Top 10",
+        tags=("client-security", "application-security"),
+    ),
+    "www-project-top-10-ci-cd-security-risks": RepositoryMeta(
+        display_name="Top 10 CI/CD Security Risks",
+        tags=("software-supply-chain", "devsecops", "infrastructure-security"),
+    ),
+    "www-project-machine-learning-security-top-10": RepositoryMeta(
+        display_name="Machine Learning Security Top 10",
+        tags=("ai-security",),
+    ),
+    "www-project-citizen-development-top10-security-risks": RepositoryMeta(
+        display_name="Citizen Development Top 10 Security Risks",
+        tags=("application-security", "risk-management"),
+    ),
+    "www-project-top-10-infrastructure-security-risks": RepositoryMeta(
+        display_name="Top 10 Infrastructure Security Risks",
+        tags=("infrastructure-security",),
+    ),
+    "www-project-smart-contract-top-10": RepositoryMeta(
+        display_name="Smart Contract Top 10",
+        tags=("blockchain",),
+    ),
+    "www-project-agentic-skills-top-10": RepositoryMeta(
+        display_name="Agentic Skills Top 10",
+        tags=("ai-security", "devsecops"),
+    ),
+    "www-project-mcp-top-10": RepositoryMeta(
+        display_name="MCP Top 10",
+        tags=("ai-security", "devsecops"),
+    ),
+    "www-project-non-human-identities-top-10": RepositoryMeta(
+        display_name="Non-Human Identities Top 10",
+        tags=("cloud-native", "infrastructure-security"),
+    ),
+    "www-project-cloud-native-application-security-top-10": RepositoryMeta(
+        display_name="Cloud Native Application Security Top 10",
+        tags=("cloud-native", "application-security"),
+    ),
+    "Top-5-Machine-Learning-Risks": RepositoryMeta(
+        display_name="Top 5 Machine Learning Risks",
+        tags=("ai-security",),
+    ),
+    "www-project-top-25-parameters": RepositoryMeta(
+        display_name="Top 25 Parameters",
+        tags=("application-security", "security-assessment"),
+    ),
+    "www-project-operational-technology-top-10": RepositoryMeta(
+        display_name="Operational Technology Top 10",
+        tags=("cyber-physical-security", "infrastructure-security"),
+    ),
+    "Cloud-Native-Application-Security-Top-10": RepositoryMeta(
+        display_name="Cloud Native Application Security Top 10",
+        tags=("cloud-native", "application-security"),
+    ),
+    "www-project-top-10-privacy-risks": RepositoryMeta(
+        display_name="Top 10 Privacy Risks",
+        tags=("risk-management",),
+    ),
+    "www-project-open-source-software-top-10": RepositoryMeta(
+        display_name="Open Source Software Top 10",
+        tags=("software-supply-chain",),
+    ),
+    "www-project-serverless-top-10": RepositoryMeta(
+        display_name="Serverless Top 10",
+        tags=("cloud-native", "application-security"),
+    ),
+    "www-project-docker-top-10": RepositoryMeta(
+        display_name="Docker Top 10",
+        tags=("cloud-native", "infrastructure-security"),
+    ),
+    "www-project-devsecops-top-10": RepositoryMeta(
+        display_name="DevSecOps Top 10",
+        tags=("software-supply-chain", "devsecops"),
+    ),
+    "www-project-top-10-client-side-security-risks": RepositoryMeta(
+        display_name="Top 10 Client-Side Security Risks",
+        tags=("client-security", "web-security"),
+    ),
+    "www-project-desktop-app-security-top-10": RepositoryMeta(
+        display_name="Desktop App Security Top 10",
+        tags=("client-security", "application-security"),
+    ),
+    "www-project-data-security-top-10": RepositoryMeta(
+        display_name="Data Security Top 10",
+        tags=("infrastructure-security", "risk-management"),
+    ),
+    "www-project-internet-of-things-top-10": RepositoryMeta(
+        display_name="Internet of Things Top 10",
+        tags=("cyber-physical-security", "infrastructure-security"),
+    ),
+    "www-project-solana-programs-top-10": RepositoryMeta(
+        display_name="Solana Programs Top 10",
+        tags=("blockchain",),
+    ),
+    "www-project-top-10-for-business-logic-abuse": RepositoryMeta(
+        display_name="Top 10 for Business Logic Abuse",
+        tags=("application-security",),
+    ),
+    "www-project-top-10-for-maritime-security": RepositoryMeta(
+        display_name="Top 10 for Maritime Security",
+        tags=("cyber-physical-security", "infrastructure-security"),
+    ),
+    "www-project-ai-top-ten": RepositoryMeta(
+        display_name="AI Top 10",
+        tags=("ai-security",),
+    ),
+    "www-project-attack-surface-management-top-10": RepositoryMeta(
+        display_name="Attack Surface Management Top 10",
+        tags=("infrastructure-security", "security-assessment"),
+    ),
+    "www-project-thick-client-top-10": RepositoryMeta(
+        display_name="Thick Client Top 10",
+        tags=("client-security", "security-assessment"),
+    ),
+    "www-project-top-10-the-game": RepositoryMeta(
+        display_name="Top 10: The Game",
+        tags=("training",),
+    ),
+    "www-project-ot-top-ten": RepositoryMeta(
+        display_name="OT Top 10",
+        tags=("cyber-physical-security", "infrastructure-security"),
+    ),
+    "www-project-top-10-drone-security-risks": RepositoryMeta(
+        display_name="Top 10 Drone Security Risks",
+        tags=("cyber-physical-security",),
+    ),
+    "www-project-top-10-in-xr": RepositoryMeta(
+        display_name="Top 10 in XR",
+        tags=("client-security", "application-security"),
+    ),
+    "www-project-top-ten-card-game": RepositoryMeta(
+        display_name="Top 10 Card Game",
+        tags=("training",),
+    ),
+    "www-project-audio-video-communications-top-10": RepositoryMeta(
+        display_name="Audio/Video Communications Top 10",
+        tags=("client-security",),
+    ),
+    "www-project-ot-top10-vulnerabilities-demonstrator": RepositoryMeta(
+        display_name="OT Top 10 Vulnerabilities Demonstrator",
+        tags=("cyber-physical-security", "security-assessment"),
+    ),
 }
 
 DEFAULT_README = f"""# OWASP repositories with "top" in the name
@@ -242,24 +373,90 @@ def format_table_cell(value: str | None) -> str:
 
 
 def get_repository_display_name(repository: Repository) -> str:
-    return REPOSITORY_DISPLAY_NAMES.get(repository.name, repository.name)
+    metadata = REPOSITORY_METADATA.get(repository.name)
+    if metadata is None:
+        return repository.name
+    return metadata.display_name
+
+
+def get_repository_tags(repository: Repository) -> tuple[str, ...]:
+    metadata = REPOSITORY_METADATA.get(repository.name)
+    if metadata is None:
+        return ()
+    return metadata.tags
+
+
+def get_repository_website_url(repository: Repository) -> str | None:
+    if not repository.name.startswith("www-project"):
+        return None
+    return f"https://owasp.org/{repository.name}"
+
+
+def render_repository_reference(repository: Repository) -> str:
+    reference = f"[{get_repository_display_name(repository)}]({repository.html_url})"
+    website_url = get_repository_website_url(repository)
+    if website_url is None:
+        return reference
+    return f"{reference} ([🌐]({website_url}))"
+
+
+def render_tag_link(tag: str) -> str:
+    return f"[{tag}](#{tag})"
+
+
+def render_repository_tags(repository: Repository) -> str:
+    tags = get_repository_tags(repository)
+    if not tags:
+        return format_table_cell(None)
+    return format_table_cell(", ".join(render_tag_link(tag) for tag in tags))
+
+
+def render_tag_sections(repositories: list[Repository]) -> str:
+    repositories_by_tag: dict[str, list[Repository]] = {}
+
+    for repository in repositories:
+        for tag in get_repository_tags(repository):
+            repositories_by_tag.setdefault(tag, []).append(repository)
+
+    if not repositories_by_tag:
+        return ""
+
+    lines = ["### Repositories by tag", ""]
+
+    for tag in sorted(repositories_by_tag):
+        lines.append(f"#### {tag}")
+        lines.append("")
+        for repository in repositories_by_tag[tag]:
+            lines.append(f"- {render_repository_reference(repository)}")
+        lines.append("")
+
+    return "\n".join(lines).rstrip()
 
 
 def render_repository_table(repositories: list[Repository]) -> str:
     lines = [
         f"Found {len(repositories)} matching repositories (excluding archived repos).",
         "",
-        "| Repository | Stars |",
-        "| --- | ---: |",
+        "| Repository | Stars | Tags |",
+        "| --- | ---: | --- |",
     ]
 
     for repository in repositories:
+        tags = render_repository_tags(repository)
         lines.append(
-            f"| [{get_repository_display_name(repository)}]({repository.html_url}) | "
-            f"{repository.stargazers_count:,} |"
+            f"| {render_repository_reference(repository)} | "
+            f"{repository.stargazers_count:,} | {tags} |"
         )
 
     return "\n".join(lines)
+
+
+def render_repository_section(repositories: list[Repository]) -> str:
+    table = render_repository_table(repositories)
+    tag_sections = render_tag_sections(repositories)
+    if not tag_sections:
+        return table
+    return f"{table}\n\n{tag_sections}"
 
 
 def render_archived_repositories(repositories: list[Repository]) -> str:
@@ -296,7 +493,7 @@ def replace_generated_section(readme_text: str, section_body: str) -> str:
 def update_readme(repositories: list[Repository]) -> None:
     ensure_readme_exists()
     current_readme = README_PATH.read_text(encoding="utf-8")
-    section_body = render_repository_table(repositories)
+    section_body = render_repository_section(repositories)
     updated_readme = replace_generated_section(current_readme, section_body)
     README_PATH.write_text(updated_readme, encoding="utf-8")
 
