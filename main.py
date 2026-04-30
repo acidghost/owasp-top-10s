@@ -95,7 +95,6 @@ class Repository:
     full_name: str
     html_url: str
     stargazers_count: int
-    description: str | None
     archived: bool
 
 
@@ -174,7 +173,6 @@ def parse_repository(value: object) -> Repository:
             item.get("stargazers_count"),
             "stargazers_count",
         ),
-        description=require_optional_str(item.get("description"), "description"),
         archived=require_bool(item.get("archived"), "archived"),
     )
 
@@ -251,15 +249,14 @@ def render_repository_table(repositories: list[Repository]) -> str:
     lines = [
         f"Found {len(repositories)} matching repositories (excluding archived repos).",
         "",
-        "| Repository | Stars | Description |",
-        "| --- | ---: | --- |",
+        "| Repository | Stars |",
+        "| --- | ---: |",
     ]
 
     for repository in repositories:
         lines.append(
             f"| [{get_repository_display_name(repository)}]({repository.html_url}) | "
-            f"{repository.stargazers_count:,} | "
-            f"{format_table_cell(repository.description)} |"
+            f"{repository.stargazers_count:,} |"
         )
 
     return "\n".join(lines)
