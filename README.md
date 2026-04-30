@@ -1,4 +1,4 @@
-# OWASP repositories with "top" in the name
+# OWASP Top 10s
 
 [![Update OWASP top repos](https://github.com/acidghost/owasp-top-10s/actions/workflows/update.yaml/badge.svg)](https://github.com/acidghost/owasp-top-10s/actions/workflows/update.yaml)
 
