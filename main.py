@@ -421,10 +421,10 @@ def render_tag_sections(repositories: list[Repository]) -> str:
     if not repositories_by_tag:
         return ""
 
-    lines = ["### Repositories by tag", ""]
+    lines = ["## Repositories by tag", ""]
 
     for tag in sorted(repositories_by_tag):
-        lines.append(f"#### {tag}")
+        lines.append(f"### {tag}")
         lines.append("")
         for repository in repositories_by_tag[tag]:
             lines.append(f"- {render_repository_reference(repository)}")
