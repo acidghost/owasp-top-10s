@@ -45,6 +45,7 @@ REPOSITORY_DISPLAY_NAMES: dict[str, str] = {
     "Cloud-Native-Application-Security-Top-10": "Cloud Native Application Security Top 10",
     "www-project-top-10-privacy-risks": "Top 10 Privacy Risks",
     "www-project-open-source-software-top-10": "Open Source Software Top 10",
+    "www-project-serverless-top-10": "Serverless Top 10",
     "www-project-docker-top-10": "Docker Top 10",
     "www-project-devsecops-top-10": "DevSecOps Top 10",
     "www-project-top-10-client-side-security-risks": "Top 10 Client-Side Security Risks",

@@ -38,7 +38,7 @@ Found 34 matching repositories (excluding archived repos).
 | [Top 25 Parameters](https://github.com/OWASP/www-project-top-25-parameters) | 26 | OWASP Foundation Web Respository |
 | [Operational Technology Top 10](https://github.com/OWASP/www-project-operational-technology-top-10) | 23 | OWASP Foundation web repository |
 | [Open Source Software Top 10](https://github.com/OWASP/www-project-open-source-software-top-10) | 16 | OWASP Top 10 Open Source Software Risks |
-| [www-project-serverless-top-10](https://github.com/OWASP/www-project-serverless-top-10) | 11 | OWASP Foundation Web Respository |
+| [Serverless Top 10](https://github.com/OWASP/www-project-serverless-top-10) | 11 | OWASP Foundation Web Respository |
 | [Docker Top 10](https://github.com/OWASP/www-project-docker-top-10) | 10 | OWASP Foundation Web Respository |
 | [DevSecOps Top 10](https://github.com/OWASP/www-project-devsecops-top-10) | 7 | OWASP Foundation Web Respository |
 | [Top 10 Client-Side Security Risks](https://github.com/OWASP/www-project-top-10-client-side-security-risks) | 7 | OWASP Foundation Web Respository |
