@@ -21,9 +21,9 @@ Found 34 matching repositories (excluding archived repos).
 
 | Repository | Stars | Tags |
 | --- | ---: | --- |
-| [Top 10](https://github.com/OWASP/Top10) | 5,661 | [application-security](#application-security), [web-security](#web-security) |
+| [Top 10](https://github.com/OWASP/Top10) | 5,665 | [application-security](#application-security), [web-security](#web-security) |
 | [Proj Top Ten](https://github.com/OWASP/www-project-top-ten) ([🌐](https://owasp.org/www-project-top-ten)) | 1,394 | [application-security](#application-security), [web-security](#web-security) |
-| [Top 10 for LLM Apps](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications) ([🌐](https://owasp.org/www-project-top-10-for-large-language-model-applications)) | 1,252 | [ai-security](#ai-security), [application-security](#application-security) |
+| [Top 10 for LLM Apps](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications) ([🌐](https://owasp.org/www-project-top-10-for-large-language-model-applications)) | 1,255 | [ai-security](#ai-security), [application-security](#application-security) |
 | [Kubernetes Top 10](https://github.com/OWASP/www-project-kubernetes-top-ten) ([🌐](https://owasp.org/www-project-kubernetes-top-ten)) | 614 | [cloud-native](#cloud-native), [infrastructure-security](#infrastructure-security) |
 | [Serverless Top 10](https://github.com/OWASP/Serverless-Top-10-Project) | 217 | [cloud-native](#cloud-native) |
 | [Mobile Top 10](https://github.com/OWASP/www-project-mobile-top-10) ([🌐](https://owasp.org/www-project-mobile-top-10)) | 116 | [client-security](#client-security), [application-security](#application-security) |
@@ -40,9 +40,9 @@ Found 34 matching repositories (excluding archived repos).
 | [Open Source Software Top 10](https://github.com/OWASP/www-project-open-source-software-top-10) ([🌐](https://owasp.org/www-project-open-source-software-top-10)) | 16 | [software-supply-chain](#software-supply-chain) |
 | [Serverless Top 10](https://github.com/OWASP/www-project-serverless-top-10) ([🌐](https://owasp.org/www-project-serverless-top-10)) | 11 | [cloud-native](#cloud-native), [application-security](#application-security) |
 | [Docker Top 10](https://github.com/OWASP/www-project-docker-top-10) ([🌐](https://owasp.org/www-project-docker-top-10)) | 10 | [cloud-native](#cloud-native), [infrastructure-security](#infrastructure-security) |
+| [Top 10 Client-Side Security Risks](https://github.com/OWASP/www-project-top-10-client-side-security-risks) ([🌐](https://owasp.org/www-project-top-10-client-side-security-risks)) | 8 | [client-security](#client-security), [web-security](#web-security) |
 | [Desktop App Security Top 10](https://github.com/OWASP/www-project-desktop-app-security-top-10) ([🌐](https://owasp.org/www-project-desktop-app-security-top-10)) | 7 | [client-security](#client-security), [application-security](#application-security) |
 | [DevSecOps Top 10](https://github.com/OWASP/www-project-devsecops-top-10) ([🌐](https://owasp.org/www-project-devsecops-top-10)) | 7 | [software-supply-chain](#software-supply-chain), [devsecops](#devsecops) |
-| [Top 10 Client-Side Security Risks](https://github.com/OWASP/www-project-top-10-client-side-security-risks) ([🌐](https://owasp.org/www-project-top-10-client-side-security-risks)) | 7 | [client-security](#client-security), [web-security](#web-security) |
 | [Data Security Top 10](https://github.com/OWASP/www-project-data-security-top-10) ([🌐](https://owasp.org/www-project-data-security-top-10)) | 5 | [infrastructure-security](#infrastructure-security), [risk-management](#risk-management) |
 | [Solana Programs Top 10](https://github.com/OWASP/www-project-solana-programs-top-10) ([🌐](https://owasp.org/www-project-solana-programs-top-10)) | 4 | [blockchain](#blockchain) |
 | [Top 10 for Business Logic Abuse](https://github.com/OWASP/www-project-top-10-for-business-logic-abuse) ([🌐](https://owasp.org/www-project-top-10-for-business-logic-abuse)) | 4 | [application-security](#application-security) |
@@ -86,8 +86,8 @@ Found 34 matching repositories (excluding archived repos).
 ### client-security
 
 - [Mobile Top 10](https://github.com/OWASP/www-project-mobile-top-10) ([🌐](https://owasp.org/www-project-mobile-top-10))
-- [Desktop App Security Top 10](https://github.com/OWASP/www-project-desktop-app-security-top-10) ([🌐](https://owasp.org/www-project-desktop-app-security-top-10))
 - [Top 10 Client-Side Security Risks](https://github.com/OWASP/www-project-top-10-client-side-security-risks) ([🌐](https://owasp.org/www-project-top-10-client-side-security-risks))
+- [Desktop App Security Top 10](https://github.com/OWASP/www-project-desktop-app-security-top-10) ([🌐](https://owasp.org/www-project-desktop-app-security-top-10))
 - [Thick Client Top 10](https://github.com/OWASP/www-project-thick-client-top-10) ([🌐](https://owasp.org/www-project-thick-client-top-10))
 - [Top 10 in XR](https://github.com/OWASP/www-project-top-10-in-xr) ([🌐](https://owasp.org/www-project-top-10-in-xr))
 - [Audio/Video Communications Top 10](https://github.com/OWASP/www-project-audio-video-communications-top-10) ([🌐](https://owasp.org/www-project-audio-video-communications-top-10))
