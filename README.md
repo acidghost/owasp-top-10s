@@ -21,13 +21,13 @@ Found 34 matching repositories (excluding archived repos).
 
 | Repository | Stars | Tags |
 | --- | ---: | --- |
-| [Top 10](https://github.com/OWASP/Top10) | 5,833 | [application-security](#application-security), [web-security](#web-security) |
+| [Top 10](https://github.com/OWASP/Top10) | 5,836 | [application-security](#application-security), [web-security](#web-security) |
 | [Proj Top Ten](https://github.com/OWASP/www-project-top-ten) ([🌐](https://owasp.org/www-project-top-ten)) | 1,414 | [application-security](#application-security), [web-security](#web-security) |
-| [Top 10 for LLM Apps](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications) ([🌐](https://owasp.org/www-project-top-10-for-large-language-model-applications)) | 1,322 | [ai-security](#ai-security), [application-security](#application-security) |
+| [Top 10 for LLM Apps](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications) ([🌐](https://owasp.org/www-project-top-10-for-large-language-model-applications)) | 1,324 | [ai-security](#ai-security), [application-security](#application-security) |
 | [Kubernetes Top 10](https://github.com/OWASP/www-project-kubernetes-top-ten) ([🌐](https://owasp.org/www-project-kubernetes-top-ten)) | 614 | [cloud-native](#cloud-native), [infrastructure-security](#infrastructure-security) |
 | [Serverless Top 10](https://github.com/OWASP/Serverless-Top-10-Project) | 217 | [cloud-native](#cloud-native) |
+| [Agentic Skills Top 10](https://github.com/OWASP/www-project-agentic-skills-top-10) ([🌐](https://owasp.org/www-project-agentic-skills-top-10)) | 125 | [ai-security](#ai-security), [devsecops](#devsecops) |
 | [Mobile Top 10](https://github.com/OWASP/www-project-mobile-top-10) ([🌐](https://owasp.org/www-project-mobile-top-10)) | 121 | [client-security](#client-security), [application-security](#application-security) |
-| [Agentic Skills Top 10](https://github.com/OWASP/www-project-agentic-skills-top-10) ([🌐](https://owasp.org/www-project-agentic-skills-top-10)) | 117 | [ai-security](#ai-security), [devsecops](#devsecops) |
 | [Top 10 CI/CD Security Risks](https://github.com/OWASP/www-project-top-10-ci-cd-security-risks) ([🌐](https://owasp.org/www-project-top-10-ci-cd-security-risks)) | 106 | [software-supply-chain](#software-supply-chain), [devsecops](#devsecops), [infrastructure-security](#infrastructure-security) |
 | [Machine Learning Security Top 10](https://github.com/OWASP/www-project-machine-learning-security-top-10) ([🌐](https://owasp.org/www-project-machine-learning-security-top-10)) | 104 | [ai-security](#ai-security) |
 | [MCP Top 10](https://github.com/OWASP/www-project-mcp-top-10) ([🌐](https://owasp.org/www-project-mcp-top-10)) | 83 | [ai-security](#ai-security), [devsecops](#devsecops) |
@@ -46,9 +46,9 @@ Found 34 matching repositories (excluding archived repos).
 | [Data Security Top 10](https://github.com/OWASP/www-project-data-security-top-10) ([🌐](https://owasp.org/www-project-data-security-top-10)) | 5 | [infrastructure-security](#infrastructure-security), [risk-management](#risk-management) |
 | [Solana Programs Top 10](https://github.com/OWASP/www-project-solana-programs-top-10) ([🌐](https://owasp.org/www-project-solana-programs-top-10)) | 5 | [blockchain](#blockchain) |
 | [Top 10 for Business Logic Abuse](https://github.com/OWASP/www-project-top-10-for-business-logic-abuse) ([🌐](https://owasp.org/www-project-top-10-for-business-logic-abuse)) | 5 | [application-security](#application-security) |
+| [Top 10 for Maritime Security](https://github.com/OWASP/www-project-top-10-for-maritime-security) ([🌐](https://owasp.org/www-project-top-10-for-maritime-security)) | 3 | [cyber-physical-security](#cyber-physical-security), [infrastructure-security](#infrastructure-security) |
 | [Attack Surface Management Top 10](https://github.com/OWASP/www-project-attack-surface-management-top-10) ([🌐](https://owasp.org/www-project-attack-surface-management-top-10)) | 2 | [infrastructure-security](#infrastructure-security), [security-assessment](#security-assessment) |
 | [Thick Client Top 10](https://github.com/OWASP/www-project-thick-client-top-10) ([🌐](https://owasp.org/www-project-thick-client-top-10)) | 2 | [client-security](#client-security), [security-assessment](#security-assessment) |
-| [Top 10 for Maritime Security](https://github.com/OWASP/www-project-top-10-for-maritime-security) ([🌐](https://owasp.org/www-project-top-10-for-maritime-security)) | 2 | [cyber-physical-security](#cyber-physical-security), [infrastructure-security](#infrastructure-security) |
 | [Top 10: The Game](https://github.com/OWASP/www-project-top-10-the-game) ([🌐](https://owasp.org/www-project-top-10-the-game)) | 2 | [training](#training) |
 | [Top 10 Drone Security Risks](https://github.com/OWASP/www-project-top-10-drone-security-risks) ([🌐](https://owasp.org/www-project-top-10-drone-security-risks)) | 1 | [cyber-physical-security](#cyber-physical-security) |
 | [Top 10 in XR](https://github.com/OWASP/www-project-top-10-in-xr) ([🌐](https://owasp.org/www-project-top-10-in-xr)) | 1 | [client-security](#client-security), [application-security](#application-security) |
@@ -123,8 +123,8 @@ Found 34 matching repositories (excluding archived repos).
 - [Operational Technology Top 10](https://github.com/OWASP/www-project-operational-technology-top-10) ([🌐](https://owasp.org/www-project-operational-technology-top-10))
 - [Docker Top 10](https://github.com/OWASP/www-project-docker-top-10) ([🌐](https://owasp.org/www-project-docker-top-10))
 - [Data Security Top 10](https://github.com/OWASP/www-project-data-security-top-10) ([🌐](https://owasp.org/www-project-data-security-top-10))
-- [Attack Surface Management Top 10](https://github.com/OWASP/www-project-attack-surface-management-top-10) ([🌐](https://owasp.org/www-project-attack-surface-management-top-10))
 - [Top 10 for Maritime Security](https://github.com/OWASP/www-project-top-10-for-maritime-security) ([🌐](https://owasp.org/www-project-top-10-for-maritime-security))
+- [Attack Surface Management Top 10](https://github.com/OWASP/www-project-attack-surface-management-top-10) ([🌐](https://owasp.org/www-project-attack-surface-management-top-10))
 
 ### risk-management
 
