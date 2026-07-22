@@ -21,15 +21,15 @@ Found 34 matching repositories (excluding archived repos).
 
 | Repository | Stars | Tags |
 | --- | ---: | --- |
-| [Top 10](https://github.com/OWASP/Top10) | 5,889 | [application-security](#application-security), [web-security](#web-security) |
+| [Top 10](https://github.com/OWASP/Top10) | 5,893 | [application-security](#application-security), [web-security](#web-security) |
 | [Proj Top Ten](https://github.com/OWASP/www-project-top-ten) ([🌐](https://owasp.org/www-project-top-ten)) | 1,419 | [application-security](#application-security), [web-security](#web-security) |
-| [Top 10 for LLM Apps](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications) ([🌐](https://owasp.org/www-project-top-10-for-large-language-model-applications)) | 1,332 | [ai-security](#ai-security), [application-security](#application-security) |
+| [Top 10 for LLM Apps](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications) ([🌐](https://owasp.org/www-project-top-10-for-large-language-model-applications)) | 1,336 | [ai-security](#ai-security), [application-security](#application-security) |
 | [Kubernetes Top 10](https://github.com/OWASP/www-project-kubernetes-top-ten) ([🌐](https://owasp.org/www-project-kubernetes-top-ten)) | 615 | [cloud-native](#cloud-native), [infrastructure-security](#infrastructure-security) |
 | [Serverless Top 10](https://github.com/OWASP/Serverless-Top-10-Project) | 217 | [cloud-native](#cloud-native) |
-| [Agentic Skills Top 10](https://github.com/OWASP/www-project-agentic-skills-top-10) ([🌐](https://owasp.org/www-project-agentic-skills-top-10)) | 136 | [ai-security](#ai-security), [devsecops](#devsecops) |
+| [Agentic Skills Top 10](https://github.com/OWASP/www-project-agentic-skills-top-10) ([🌐](https://owasp.org/www-project-agentic-skills-top-10)) | 138 | [ai-security](#ai-security), [devsecops](#devsecops) |
 | [Mobile Top 10](https://github.com/OWASP/www-project-mobile-top-10) ([🌐](https://owasp.org/www-project-mobile-top-10)) | 121 | [client-security](#client-security), [application-security](#application-security) |
+| [Machine Learning Security Top 10](https://github.com/OWASP/www-project-machine-learning-security-top-10) ([🌐](https://owasp.org/www-project-machine-learning-security-top-10)) | 106 | [ai-security](#ai-security) |
 | [Top 10 CI/CD Security Risks](https://github.com/OWASP/www-project-top-10-ci-cd-security-risks) ([🌐](https://owasp.org/www-project-top-10-ci-cd-security-risks)) | 106 | [software-supply-chain](#software-supply-chain), [devsecops](#devsecops), [infrastructure-security](#infrastructure-security) |
-| [Machine Learning Security Top 10](https://github.com/OWASP/www-project-machine-learning-security-top-10) ([🌐](https://owasp.org/www-project-machine-learning-security-top-10)) | 105 | [ai-security](#ai-security) |
 | [MCP Top 10](https://github.com/OWASP/www-project-mcp-top-10) ([🌐](https://owasp.org/www-project-mcp-top-10)) | 87 | [ai-security](#ai-security), [devsecops](#devsecops) |
 | [Smart Contract Top 10](https://github.com/OWASP/www-project-smart-contract-top-10) ([🌐](https://owasp.org/www-project-smart-contract-top-10)) | 77 | [blockchain](#blockchain) |
 | [Citizen Development Top 10 Security Risks](https://github.com/OWASP/www-project-citizen-development-top10-security-risks) ([🌐](https://owasp.org/www-project-citizen-development-top10-security-risks)) | 76 | [application-security](#application-security), [risk-management](#risk-management) |
