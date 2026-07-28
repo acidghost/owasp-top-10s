@@ -17,11 +17,11 @@ GITHUB_TOKEN=your_token_here python3 main.py
 ## Generated repository list
 
 <!-- owasp-top-repos:start -->
-Found 35 matching repositories (excluding archived repos).
+Found 37 matching repositories (excluding archived repos).
 
 | Repository | Stars | Tags |
 | --- | ---: | --- |
-| [Top 10](https://github.com/OWASP/Top10) | 5,903 | [application-security](#application-security), [web-security](#web-security) |
+| [Top 10](https://github.com/OWASP/Top10) | 5,910 | [application-security](#application-security), [web-security](#web-security) |
 | [Proj Top Ten](https://github.com/OWASP/www-project-top-ten) ([🌐](https://owasp.org/www-project-top-ten)) | 1,420 | [application-security](#application-security), [web-security](#web-security) |
 | [Top 10 for LLM Apps](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications) ([🌐](https://owasp.org/www-project-top-10-for-large-language-model-applications)) | 1,342 | [ai-security](#ai-security), [application-security](#application-security) |
 | [Kubernetes Top 10](https://github.com/OWASP/www-project-kubernetes-top-ten) ([🌐](https://owasp.org/www-project-kubernetes-top-ten)) | 615 | [cloud-native](#cloud-native), [infrastructure-security](#infrastructure-security) |
@@ -30,7 +30,7 @@ Found 35 matching repositories (excluding archived repos).
 | [Mobile Top 10](https://github.com/OWASP/www-project-mobile-top-10) ([🌐](https://owasp.org/www-project-mobile-top-10)) | 123 | [client-security](#client-security), [application-security](#application-security) |
 | [Top 10 CI/CD Security Risks](https://github.com/OWASP/www-project-top-10-ci-cd-security-risks) ([🌐](https://owasp.org/www-project-top-10-ci-cd-security-risks)) | 107 | [software-supply-chain](#software-supply-chain), [devsecops](#devsecops), [infrastructure-security](#infrastructure-security) |
 | [Machine Learning Security Top 10](https://github.com/OWASP/www-project-machine-learning-security-top-10) ([🌐](https://owasp.org/www-project-machine-learning-security-top-10)) | 106 | [ai-security](#ai-security) |
-| [MCP Top 10](https://github.com/OWASP/www-project-mcp-top-10) ([🌐](https://owasp.org/www-project-mcp-top-10)) | 92 | [ai-security](#ai-security), [devsecops](#devsecops) |
+| [MCP Top 10](https://github.com/OWASP/www-project-mcp-top-10) ([🌐](https://owasp.org/www-project-mcp-top-10)) | 94 | [ai-security](#ai-security), [devsecops](#devsecops) |
 | [Smart Contract Top 10](https://github.com/OWASP/www-project-smart-contract-top-10) ([🌐](https://owasp.org/www-project-smart-contract-top-10)) | 78 | [blockchain](#blockchain) |
 | [Citizen Development Top 10 Security Risks](https://github.com/OWASP/www-project-citizen-development-top10-security-risks) ([🌐](https://owasp.org/www-project-citizen-development-top10-security-risks)) | 76 | [application-security](#application-security), [risk-management](#risk-management) |
 | [Top 10 Infrastructure Security Risks](https://github.com/OWASP/www-project-top-10-infrastructure-security-risks) ([🌐](https://owasp.org/www-project-top-10-infrastructure-security-risks)) | 74 | [infrastructure-security](#infrastructure-security) |
@@ -50,10 +50,12 @@ Found 35 matching repositories (excluding archived repos).
 | [Attack Surface Management Top 10](https://github.com/OWASP/www-project-attack-surface-management-top-10) ([🌐](https://owasp.org/www-project-attack-surface-management-top-10)) | 2 | [infrastructure-security](#infrastructure-security), [security-assessment](#security-assessment) |
 | [Thick Client Top 10](https://github.com/OWASP/www-project-thick-client-top-10) ([🌐](https://owasp.org/www-project-thick-client-top-10)) | 2 | [client-security](#client-security), [security-assessment](#security-assessment) |
 | [Top 10: The Game](https://github.com/OWASP/www-project-top-10-the-game) ([🌐](https://owasp.org/www-project-top-10-the-game)) | 2 | [training](#training) |
+| [OWASP-Subtractive-Hardening-Top-10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10) | 1 | — |
 | [Top 10 Drone Security Risks](https://github.com/OWASP/www-project-top-10-drone-security-risks) ([🌐](https://owasp.org/www-project-top-10-drone-security-risks)) | 1 | [cyber-physical-security](#cyber-physical-security) |
 | [Top 10 in XR](https://github.com/OWASP/www-project-top-10-in-xr) ([🌐](https://owasp.org/www-project-top-10-in-xr)) | 1 | [client-security](#client-security), [application-security](#application-security) |
 | [Top 10 Card Game](https://github.com/OWASP/www-project-top-ten-card-game) ([🌐](https://owasp.org/www-project-top-ten-card-game)) | 1 | [training](#training) |
 | [Audio-Video-Communications-Top-10](https://github.com/OWASP/Audio-Video-Communications-Top-10) | 0 | — |
+| [OWASP-Top-10-AI-Infrastructure-Security-Risks](https://github.com/OWASP/OWASP-Top-10-AI-Infrastructure-Security-Risks) | 0 | — |
 | [Audio/Video Communications Top 10](https://github.com/OWASP/www-project-audio-video-communications-top-10) ([🌐](https://owasp.org/www-project-audio-video-communications-top-10)) | 0 | [client-security](#client-security) |
 | [OT Top 10 Vulnerabilities Demonstrator](https://github.com/OWASP/www-project-ot-top10-vulnerabilities-demonstrator) ([🌐](https://owasp.org/www-project-ot-top10-vulnerabilities-demonstrator)) | 0 | [cyber-physical-security](#cyber-physical-security), [security-assessment](#security-assessment) |
 
