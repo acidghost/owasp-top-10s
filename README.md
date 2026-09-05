@@ -21,10 +21,10 @@ Found 37 matching repositories (excluding archived repos).
 
 | Repository | Stars | Tags |
 | --- | ---: | --- |
-| [Top 10](https://github.com/OWASP/Top10) | 6,043 | [application-security](#application-security), [web-security](#web-security) |
-| [Proj Top Ten](https://github.com/OWASP/www-project-top-ten) ([🌐](https://owasp.org/www-project-top-ten)) | 1,435 | [application-security](#application-security), [web-security](#web-security) |
-| [Top 10 for LLM Apps](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications) ([🌐](https://owasp.org/www-project-top-10-for-large-language-model-applications)) | 1,383 | [ai-security](#ai-security), [application-security](#application-security) |
-| [Kubernetes Top 10](https://github.com/OWASP/www-project-kubernetes-top-ten) ([🌐](https://owasp.org/www-project-kubernetes-top-ten)) | 618 | [cloud-native](#cloud-native), [infrastructure-security](#infrastructure-security) |
+| [Top 10](https://github.com/OWASP/Top10) | 6,047 | [application-security](#application-security), [web-security](#web-security) |
+| [Proj Top Ten](https://github.com/OWASP/www-project-top-ten) ([🌐](https://owasp.org/www-project-top-ten)) | 1,436 | [application-security](#application-security), [web-security](#web-security) |
+| [Top 10 for LLM Apps](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications) ([🌐](https://owasp.org/www-project-top-10-for-large-language-model-applications)) | 1,384 | [ai-security](#ai-security), [application-security](#application-security) |
+| [Kubernetes Top 10](https://github.com/OWASP/www-project-kubernetes-top-ten) ([🌐](https://owasp.org/www-project-kubernetes-top-ten)) | 619 | [cloud-native](#cloud-native), [infrastructure-security](#infrastructure-security) |
 | [Serverless Top 10](https://github.com/OWASP/Serverless-Top-10-Project) | 217 | [cloud-native](#cloud-native) |
 | [Agentic Skills Top 10](https://github.com/OWASP/www-project-agentic-skills-top-10) ([🌐](https://owasp.org/www-project-agentic-skills-top-10)) | 195 | [ai-security](#ai-security), [devsecops](#devsecops) |
 | [Mobile Top 10](https://github.com/OWASP/www-project-mobile-top-10) ([🌐](https://owasp.org/www-project-mobile-top-10)) | 123 | [client-security](#client-security), [application-security](#application-security) |
