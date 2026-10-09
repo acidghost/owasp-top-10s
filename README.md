@@ -21,16 +21,16 @@ Found 37 matching repositories (excluding archived repos).
 
 | Repository | Stars | Tags |
 | --- | ---: | --- |
-| [Top 10](https://github.com/OWASP/Top10) | 6,243 | [application-security](#application-security), [web-security](#web-security) |
-| [Proj Top Ten](https://github.com/OWASP/www-project-top-ten) ([🌐](https://owasp.org/www-project-top-ten)) | 1,445 | [application-security](#application-security), [web-security](#web-security) |
-| [Top 10 for LLM Apps](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications) ([🌐](https://owasp.org/www-project-top-10-for-large-language-model-applications)) | 1,437 | [ai-security](#ai-security), [application-security](#application-security) |
+| [Top 10](https://github.com/OWASP/Top10) | 6,251 | [application-security](#application-security), [web-security](#web-security) |
+| [Proj Top Ten](https://github.com/OWASP/www-project-top-ten) ([🌐](https://owasp.org/www-project-top-ten)) | 1,446 | [application-security](#application-security), [web-security](#web-security) |
+| [Top 10 for LLM Apps](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications) ([🌐](https://owasp.org/www-project-top-10-for-large-language-model-applications)) | 1,438 | [ai-security](#ai-security), [application-security](#application-security) |
 | [Kubernetes Top 10](https://github.com/OWASP/www-project-kubernetes-top-ten) ([🌐](https://owasp.org/www-project-kubernetes-top-ten)) | 622 | [cloud-native](#cloud-native), [infrastructure-security](#infrastructure-security) |
-| [Agentic Skills Top 10](https://github.com/OWASP/www-project-agentic-skills-top-10) ([🌐](https://owasp.org/www-project-agentic-skills-top-10)) | 287 | [ai-security](#ai-security), [devsecops](#devsecops) |
+| [Agentic Skills Top 10](https://github.com/OWASP/www-project-agentic-skills-top-10) ([🌐](https://owasp.org/www-project-agentic-skills-top-10)) | 291 | [ai-security](#ai-security), [devsecops](#devsecops) |
 | [Serverless Top 10](https://github.com/OWASP/Serverless-Top-10-Project) | 218 | [cloud-native](#cloud-native) |
-| [Mobile Top 10](https://github.com/OWASP/www-project-mobile-top-10) ([🌐](https://owasp.org/www-project-mobile-top-10)) | 127 | [client-security](#client-security), [application-security](#application-security) |
+| [Mobile Top 10](https://github.com/OWASP/www-project-mobile-top-10) ([🌐](https://owasp.org/www-project-mobile-top-10)) | 129 | [client-security](#client-security), [application-security](#application-security) |
 | [MCP Top 10](https://github.com/OWASP/www-project-mcp-top-10) ([🌐](https://owasp.org/www-project-mcp-top-10)) | 114 | [ai-security](#ai-security), [devsecops](#devsecops) |
 | [Top 10 CI/CD Security Risks](https://github.com/OWASP/www-project-top-10-ci-cd-security-risks) ([🌐](https://owasp.org/www-project-top-10-ci-cd-security-risks)) | 112 | [software-supply-chain](#software-supply-chain), [devsecops](#devsecops), [infrastructure-security](#infrastructure-security) |
-| [Machine Learning Security Top 10](https://github.com/OWASP/www-project-machine-learning-security-top-10) ([🌐](https://owasp.org/www-project-machine-learning-security-top-10)) | 106 | [ai-security](#ai-security) |
+| [Machine Learning Security Top 10](https://github.com/OWASP/www-project-machine-learning-security-top-10) ([🌐](https://owasp.org/www-project-machine-learning-security-top-10)) | 107 | [ai-security](#ai-security) |
 | [Smart Contract Top 10](https://github.com/OWASP/www-project-smart-contract-top-10) ([🌐](https://owasp.org/www-project-smart-contract-top-10)) | 91 | [blockchain](#blockchain) |
 | [Citizen Development Top 10 Security Risks](https://github.com/OWASP/www-project-citizen-development-top10-security-risks) ([🌐](https://owasp.org/www-project-citizen-development-top10-security-risks)) | 77 | [application-security](#application-security), [risk-management](#risk-management) |
 | [Top 10 Infrastructure Security Risks](https://github.com/OWASP/www-project-top-10-infrastructure-security-risks) ([🌐](https://owasp.org/www-project-top-10-infrastructure-security-risks)) | 75 | [infrastructure-security](#infrastructure-security) |
@@ -46,7 +46,7 @@ Found 37 matching repositories (excluding archived repos).
 | [Top 10 Client-Side Security Risks](https://github.com/OWASP/www-project-top-10-client-side-security-risks) ([🌐](https://owasp.org/www-project-top-10-client-side-security-risks)) | 8 | [client-security](#client-security), [web-security](#web-security) |
 | [Data Security Top 10](https://github.com/OWASP/www-project-data-security-top-10) ([🌐](https://owasp.org/www-project-data-security-top-10)) | 7 | [infrastructure-security](#infrastructure-security), [risk-management](#risk-management) |
 | [DevSecOps Top 10](https://github.com/OWASP/www-project-devsecops-top-10) ([🌐](https://owasp.org/www-project-devsecops-top-10)) | 7 | [software-supply-chain](#software-supply-chain), [devsecops](#devsecops) |
-| [Top 10 for Business Logic Abuse](https://github.com/OWASP/www-project-top-10-for-business-logic-abuse) ([🌐](https://owasp.org/www-project-top-10-for-business-logic-abuse)) | 6 | [application-security](#application-security) |
+| [Top 10 for Business Logic Abuse](https://github.com/OWASP/www-project-top-10-for-business-logic-abuse) ([🌐](https://owasp.org/www-project-top-10-for-business-logic-abuse)) | 7 | [application-security](#application-security) |
 | [Solana Programs Top 10](https://github.com/OWASP/www-project-solana-programs-top-10) ([🌐](https://owasp.org/www-project-solana-programs-top-10)) | 5 | [blockchain](#blockchain) |
 | [Top 10 for Maritime Security](https://github.com/OWASP/www-project-top-10-for-maritime-security) ([🌐](https://owasp.org/www-project-top-10-for-maritime-security)) | 3 | [cyber-physical-security](#cyber-physical-security), [infrastructure-security](#infrastructure-security) |
 | [Attack Surface Management Top 10](https://github.com/OWASP/www-project-attack-surface-management-top-10) ([🌐](https://owasp.org/www-project-attack-surface-management-top-10)) | 2 | [infrastructure-security](#infrastructure-security), [security-assessment](#security-assessment) |
