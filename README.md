@@ -21,11 +21,11 @@ Found 38 matching repositories (excluding archived repos).
 
 | Repository | Stars | Tags |
 | --- | ---: | --- |
-| [Top 10](https://github.com/OWASP/Top10) | 6,549 | [application-security](#application-security), [web-security](#web-security) |
-| [Top 10 for LLM Apps](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications) ([🌐](https://owasp.org/www-project-top-10-for-large-language-model-applications)) | 1,492 | [ai-security](#ai-security), [application-security](#application-security) |
+| [Top 10](https://github.com/OWASP/Top10) | 6,563 | [application-security](#application-security), [web-security](#web-security) |
+| [Top 10 for LLM Apps](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications) ([🌐](https://owasp.org/www-project-top-10-for-large-language-model-applications)) | 1,494 | [ai-security](#ai-security), [application-security](#application-security) |
 | [Proj Top Ten](https://github.com/OWASP/www-project-top-ten) ([🌐](https://owasp.org/www-project-top-ten)) | 1,456 | [application-security](#application-security), [web-security](#web-security) |
 | [Kubernetes Top 10](https://github.com/OWASP/www-project-kubernetes-top-ten) ([🌐](https://owasp.org/www-project-kubernetes-top-ten)) | 623 | [cloud-native](#cloud-native), [infrastructure-security](#infrastructure-security) |
-| [Agentic Skills Top 10](https://github.com/OWASP/www-project-agentic-skills-top-10) ([🌐](https://owasp.org/www-project-agentic-skills-top-10)) | 427 | [ai-security](#ai-security), [devsecops](#devsecops) |
+| [Agentic Skills Top 10](https://github.com/OWASP/www-project-agentic-skills-top-10) ([🌐](https://owasp.org/www-project-agentic-skills-top-10)) | 431 | [ai-security](#ai-security), [devsecops](#devsecops) |
 | [Serverless Top 10](https://github.com/OWASP/Serverless-Top-10-Project) | 218 | [cloud-native](#cloud-native) |
 | [Mobile Top 10](https://github.com/OWASP/www-project-mobile-top-10) ([🌐](https://owasp.org/www-project-mobile-top-10)) | 142 | [client-security](#client-security), [application-security](#application-security) |
 | [MCP Top 10](https://github.com/OWASP/www-project-mcp-top-10) ([🌐](https://owasp.org/www-project-mcp-top-10)) | 136 | [ai-security](#ai-security), [devsecops](#devsecops) |
@@ -53,10 +53,10 @@ Found 38 matching repositories (excluding archived repos).
 | [Attack Surface Management Top 10](https://github.com/OWASP/www-project-attack-surface-management-top-10) ([🌐](https://owasp.org/www-project-attack-surface-management-top-10)) | 2 | [infrastructure-security](#infrastructure-security), [security-assessment](#security-assessment) |
 | [Thick Client Top 10](https://github.com/OWASP/www-project-thick-client-top-10) ([🌐](https://owasp.org/www-project-thick-client-top-10)) | 2 | [client-security](#client-security), [security-assessment](#security-assessment) |
 | [Top 10 in XR](https://github.com/OWASP/www-project-top-10-in-xr) ([🌐](https://owasp.org/www-project-top-10-in-xr)) | 2 | [client-security](#client-security), [application-security](#application-security) |
+| [Top-10-App](https://github.com/OWASP/Top-10-App) | 1 | — |
 | [Top 10 Drone Security Risks](https://github.com/OWASP/www-project-top-10-drone-security-risks) ([🌐](https://owasp.org/www-project-top-10-drone-security-risks)) | 1 | [cyber-physical-security](#cyber-physical-security) |
 | [Top 10 Card Game](https://github.com/OWASP/www-project-top-ten-card-game) ([🌐](https://owasp.org/www-project-top-ten-card-game)) | 1 | [training](#training) |
 | [Audio-Video-Communications-Top-10](https://github.com/OWASP/Audio-Video-Communications-Top-10) | 0 | — |
-| [Top-10-App](https://github.com/OWASP/Top-10-App) | 0 | — |
 | [Audio/Video Communications Top 10](https://github.com/OWASP/www-project-audio-video-communications-top-10) ([🌐](https://owasp.org/www-project-audio-video-communications-top-10)) | 0 | [client-security](#client-security) |
 | [OT Top 10 Vulnerabilities Demonstrator](https://github.com/OWASP/www-project-ot-top10-vulnerabilities-demonstrator) ([🌐](https://owasp.org/www-project-ot-top10-vulnerabilities-demonstrator)) | 0 | [cyber-physical-security](#cyber-physical-security), [security-assessment](#security-assessment) |
 
