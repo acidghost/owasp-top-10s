@@ -22,10 +22,10 @@ Found 39 matching repositories (excluding archived repos).
 | Repository | Stars | Tags |
 | --- | ---: | --- |
 | [Top 10](https://github.com/OWASP/Top10) | 6,588 | [application-security](#application-security), [web-security](#web-security) |
-| [Top 10 for LLM Apps](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications) ([🌐](https://owasp.org/www-project-top-10-for-large-language-model-applications)) | 1,504 | [ai-security](#ai-security), [application-security](#application-security) |
+| [Top 10 for LLM Apps](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications) ([🌐](https://owasp.org/www-project-top-10-for-large-language-model-applications)) | 1,505 | [ai-security](#ai-security), [application-security](#application-security) |
 | [Proj Top Ten](https://github.com/OWASP/www-project-top-ten) ([🌐](https://owasp.org/www-project-top-ten)) | 1,456 | [application-security](#application-security), [web-security](#web-security) |
 | [Kubernetes Top 10](https://github.com/OWASP/www-project-kubernetes-top-ten) ([🌐](https://owasp.org/www-project-kubernetes-top-ten)) | 625 | [cloud-native](#cloud-native), [infrastructure-security](#infrastructure-security) |
-| [Agentic Skills Top 10](https://github.com/OWASP/www-project-agentic-skills-top-10) ([🌐](https://owasp.org/www-project-agentic-skills-top-10)) | 441 | [ai-security](#ai-security), [devsecops](#devsecops) |
+| [Agentic Skills Top 10](https://github.com/OWASP/www-project-agentic-skills-top-10) ([🌐](https://owasp.org/www-project-agentic-skills-top-10)) | 445 | [ai-security](#ai-security), [devsecops](#devsecops) |
 | [Serverless Top 10](https://github.com/OWASP/Serverless-Top-10-Project) | 218 | [cloud-native](#cloud-native) |
 | [Mobile Top 10](https://github.com/OWASP/www-project-mobile-top-10) ([🌐](https://owasp.org/www-project-mobile-top-10)) | 144 | [client-security](#client-security), [application-security](#application-security) |
 | [MCP Top 10](https://github.com/OWASP/www-project-mcp-top-10) ([🌐](https://owasp.org/www-project-mcp-top-10)) | 139 | [ai-security](#ai-security), [devsecops](#devsecops) |
