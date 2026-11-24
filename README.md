@@ -21,11 +21,11 @@ Found 39 matching repositories (excluding archived repos).
 
 | Repository | Stars | Tags |
 | --- | ---: | --- |
-| [Top 10](https://github.com/OWASP/Top10) | 6,588 | [application-security](#application-security), [web-security](#web-security) |
-| [Top 10 for LLM Apps](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications) ([🌐](https://owasp.org/www-project-top-10-for-large-language-model-applications)) | 1,511 | [ai-security](#ai-security), [application-security](#application-security) |
-| [Proj Top Ten](https://github.com/OWASP/www-project-top-ten) ([🌐](https://owasp.org/www-project-top-ten)) | 1,456 | [application-security](#application-security), [web-security](#web-security) |
+| [Top 10](https://github.com/OWASP/Top10) | 6,595 | [application-security](#application-security), [web-security](#web-security) |
+| [Top 10 for LLM Apps](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications) ([🌐](https://owasp.org/www-project-top-10-for-large-language-model-applications)) | 1,512 | [ai-security](#ai-security), [application-security](#application-security) |
+| [Proj Top Ten](https://github.com/OWASP/www-project-top-ten) ([🌐](https://owasp.org/www-project-top-ten)) | 1,457 | [application-security](#application-security), [web-security](#web-security) |
 | [Kubernetes Top 10](https://github.com/OWASP/www-project-kubernetes-top-ten) ([🌐](https://owasp.org/www-project-kubernetes-top-ten)) | 625 | [cloud-native](#cloud-native), [infrastructure-security](#infrastructure-security) |
-| [Agentic Skills Top 10](https://github.com/OWASP/www-project-agentic-skills-top-10) ([🌐](https://owasp.org/www-project-agentic-skills-top-10)) | 449 | [ai-security](#ai-security), [devsecops](#devsecops) |
+| [Agentic Skills Top 10](https://github.com/OWASP/www-project-agentic-skills-top-10) ([🌐](https://owasp.org/www-project-agentic-skills-top-10)) | 453 | [ai-security](#ai-security), [devsecops](#devsecops) |
 | [Serverless Top 10](https://github.com/OWASP/Serverless-Top-10-Project) | 218 | [cloud-native](#cloud-native) |
 | [Mobile Top 10](https://github.com/OWASP/www-project-mobile-top-10) ([🌐](https://owasp.org/www-project-mobile-top-10)) | 144 | [client-security](#client-security), [application-security](#application-security) |
 | [MCP Top 10](https://github.com/OWASP/www-project-mcp-top-10) ([🌐](https://owasp.org/www-project-mcp-top-10)) | 140 | [ai-security](#ai-security), [devsecops](#devsecops) |
@@ -50,10 +50,10 @@ Found 39 matching repositories (excluding archived repos).
 | [Solana Programs Top 10](https://github.com/OWASP/www-project-solana-programs-top-10) ([🌐](https://owasp.org/www-project-solana-programs-top-10)) | 5 | [blockchain](#blockchain) |
 | [Top 10 for Maritime Security](https://github.com/OWASP/www-project-top-10-for-maritime-security) ([🌐](https://owasp.org/www-project-top-10-for-maritime-security)) | 3 | [cyber-physical-security](#cyber-physical-security), [infrastructure-security](#infrastructure-security) |
 | [Top 10: The Game](https://github.com/OWASP/www-project-top-10-the-game) ([🌐](https://owasp.org/www-project-top-10-the-game)) | 3 | [training](#training) |
+| [Top-10-App](https://github.com/OWASP/Top-10-App) | 2 | — |
 | [Attack Surface Management Top 10](https://github.com/OWASP/www-project-attack-surface-management-top-10) ([🌐](https://owasp.org/www-project-attack-surface-management-top-10)) | 2 | [infrastructure-security](#infrastructure-security), [security-assessment](#security-assessment) |
 | [Thick Client Top 10](https://github.com/OWASP/www-project-thick-client-top-10) ([🌐](https://owasp.org/www-project-thick-client-top-10)) | 2 | [client-security](#client-security), [security-assessment](#security-assessment) |
 | [Top 10 in XR](https://github.com/OWASP/www-project-top-10-in-xr) ([🌐](https://owasp.org/www-project-top-10-in-xr)) | 2 | [client-security](#client-security), [application-security](#application-security) |
-| [Top-10-App](https://github.com/OWASP/Top-10-App) | 1 | — |
 | [Top 10 Drone Security Risks](https://github.com/OWASP/www-project-top-10-drone-security-risks) ([🌐](https://owasp.org/www-project-top-10-drone-security-risks)) | 1 | [cyber-physical-security](#cyber-physical-security) |
 | [Top 10 Card Game](https://github.com/OWASP/www-project-top-ten-card-game) ([🌐](https://owasp.org/www-project-top-ten-card-game)) | 1 | [training](#training) |
 | [Audio-Video-Communications-Top-10](https://github.com/OWASP/Audio-Video-Communications-Top-10) | 0 | — |
